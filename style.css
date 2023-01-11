@@ -1,7 +1,7 @@
 #header {
   display: flex;
   background-color: #3c3a39;
-  width: 400px;
+  max-width: 375px;
   justify-content: space-between;
   align-items: center;
 }
@@ -21,6 +21,10 @@
   text-align: center;
 }
 
+#owner_name a {
+  text-decoration: none;
+}
+
 #header_menu,
 #owner_name {
   padding: 0 1rem;
@@ -28,22 +32,23 @@
 
 #headline {
   background: #1c1a19;
-  width: 400px;
+  max-width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
-  padding-bottom: 101px;
+  padding-bottom: 100px;
+  background-image: url(/images/Illustration.png);
+  background-repeat: no-repeat;
+  background-position: top 110px right;
 }
 
 #introduction {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 30px;
   line-height: 10px;
   width: 300px;
-  letter-spacing: 0.37px;
   color: #ff6b00;
 }
 
@@ -51,8 +56,8 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 10px;
   color: #fff5e1;
 }
 
@@ -62,7 +67,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 22px;
   color: #fff;
 }
 
@@ -77,12 +82,4 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
-}
-
-#illustration {
-  position: absolute;
-  width: 406.89px;
-  height: 312.03px;
-  left: 260px;
-  top: 200px;
 }
