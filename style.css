@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
+
+#header {
+  display: flex;
+  background-color: #3c3a39;
+  max-width: 375px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#owner_name p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#owner_name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#owner_name a {
+  text-decoration: none;
+}
+
+#header_menu,
+#owner_name {
+  padding: 0 1rem;
+}
+
+#headline {
+  background: #1c1a19;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+  background-image: url("./images/Illustration.png");
+  background-repeat: no-repeat;
+  background-position: top 230px right;
+}
+
+#introduction {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  width: 300px;
+  color: #ff6b00;
+  padding-top: 30px;
+}
+
+#Occupation {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  color: #fff5e1;
+  width: 300px;
+}
+
+#qualification {
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+}
+
+#contact {
+  width: 100%;
+}
+
+#contact_infos {
+  width: 200px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
