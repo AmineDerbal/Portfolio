@@ -116,7 +116,7 @@ npm install
 
 To run tests, run the following command:
 
-npx hint . "to check html errors" Refer to this Documentation for information how to check styles error
+npx hint . "to check html errors" Refer to this [Documentation]("https://github.com/microverseinc/linters-config/tree/master/html-css#stylelint") for information how to check styles error
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
