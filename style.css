@@ -43,7 +43,6 @@
   font-size: 56px;
   line-height: 10px;
   width: 300px;
-
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
@@ -64,12 +63,13 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 #contact {
   width: 100%;
 }
+
 #contact_infos {
   width: 200px;
   list-style: none;
