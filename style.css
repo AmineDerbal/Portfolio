@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
+
 #header {
   display: flex;
   background-color: #3c3a39;
@@ -37,9 +39,9 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
-  background-image: url(/images/Illustration.png);
+  background-image: url("./images/Illustration.png");
   background-repeat: no-repeat;
-  background-position: top 110px right;
+  background-position: top 230px right;
 }
 
 #introduction {
@@ -47,9 +49,10 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 10px;
+  line-height: 50px;
   width: 300px;
   color: #ff6b00;
+  padding-top: 30px;
 }
 
 #Occupation {
@@ -59,6 +62,7 @@
   font-size: 20px;
   line-height: 10px;
   color: #fff5e1;
+  width: 300px;
 }
 
 #qualification {
