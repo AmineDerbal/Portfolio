@@ -25,3 +25,64 @@
 #owner_name {
   padding: 0 1rem;
 }
+
+#headline {
+  background: #1c1a19;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 101px;
+}
+
+#introduction {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 10px;
+  width: 300px;
+
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+#Occupation {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+}
+
+#qualification {
+  width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#contact {
+  width: 100%;
+}
+#contact_infos {
+  width: 200px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#illustration {
+  position: absolute;
+  width: 406.89px;
+  height: 312.03px;
+  left: 260px;
+  top: 200px;
+}
