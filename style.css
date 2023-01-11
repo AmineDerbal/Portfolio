@@ -1,0 +1,27 @@
+#header {
+  display: flex;
+  background-color: #3c3a39;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#owner_name p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+#owner_name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#header_menu,
+#owner_name {
+  padding: 0 1rem;
+}
