@@ -256,7 +256,7 @@ body {
   align-items: center;
   background-image: url("./images/illustration-about-me-mobile.png");
   background-repeat: no-repeat;
-  background-position: top 370px right;
+  background-position: top 305px right;
 }
 
 #about_me-title h1 {
@@ -267,6 +267,7 @@ body {
   font-size: 72px;
   line-height: 88px;
   color: #ff6b00;
+  margin-bottom: 0;
 }
 
 #about_me_derscription {
