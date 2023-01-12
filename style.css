@@ -121,7 +121,7 @@ body {
   align-items: center;
 }
 
-#model_1-title {
+.model_1-title {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -131,38 +131,38 @@ body {
   text-align: center;
 }
 
-#model_1-description {
+.model_1-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
-#model_1-tech {
+.model_1-tech {
   width: 100%;
 }
-#model_1-tech ul {
+.model_1-tech ul {
   list-style: none;
   display: flex;
   padding-left: 0;
   gap: 10px;
 }
-#model_1-tech button {
+.model_1-tech button {
   padding: 10px;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
 
-#model_1-project {
+.model_1-project,
+.model_2-project {
   width: 100%;
-  display: flex;
 }
 
-#model_1-project button {
+.model_1-project button {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 17px;
   padding: 10px;
   background: #ff6b00;
@@ -174,5 +174,68 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   padding: 1em;
-  grid-row-gap: 100px;
+  grid-row-gap: 50px;
+}
+
+.work_model_2 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./images/Img_Placeholder_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.model_2-title h1 {
+  padding-top: 30px;
+  width: 295px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.model-2-description {
+  width: 295px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.model_2-tech {
+  width: 295px;
+}
+.model_2-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.model_2-tech button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.24);
+  border: none;
+  padding: 10px;
+}
+
+.model_2-project button {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+  padding: 10px;
 }
