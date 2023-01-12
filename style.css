@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   max-width: 375px;
@@ -107,4 +108,71 @@ body {
   color: #1c1a19;
   text-align: center;
   border-bottom: 1px solid #212121;
+}
+
+.work_model_1 {
+  margin-top: 5px;
+  padding-top: 250px;
+  background-image: url("./images/Img_Placeholder_1.png");
+  background-repeat: no-repeat;
+  background-position: top 30px center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#model_1-title {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  color: #091e42;
+  text-align: center;
+}
+
+#model_1-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+#model_1-tech {
+  width: 100%;
+}
+#model_1-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+#model_1-tech button {
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#model_1-project {
+  width: 100%;
+  display: flex;
+}
+
+#model_1-project button {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  padding: 10px;
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+}
+
+#card_works {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1em;
+  grid-row-gap: 100px;
 }
