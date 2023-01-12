@@ -283,6 +283,7 @@ body {
   color: #fff;
   background: #ff6b00;
   padding: 10px;
+  border: none;
 }
 
 #separator_vector {
@@ -329,4 +330,16 @@ body {
   font-style: normal;
   font-size: 22px;
   line-height: 43px;
+}
+
+.orange_button:hover,
+#get_resume button:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+.orange_button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
 }
