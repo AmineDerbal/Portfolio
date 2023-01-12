@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
 
+body {
+  max-width: 375px;
+}
 #header {
   display: flex;
   background-color: #3c3a39;
@@ -86,4 +89,22 @@
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+#works_section {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#works_title {
+  width: 360px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 52px;
+  color: #1c1a19;
+  text-align: center;
+  border-bottom: 1px solid #212121;
 }
