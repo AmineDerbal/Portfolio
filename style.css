@@ -217,12 +217,17 @@ body {
 
 .model_2-tech ul {
   list-style: none;
-  display: flex;
   padding-left: 0;
   gap: 10px;
 }
 
+.model_2-tech ul li{
+  float: left;
+  margin: 5px 5px;
+}
+
 .model_2-tech button {
+  clear: both;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
