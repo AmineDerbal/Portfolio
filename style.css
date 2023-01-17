@@ -80,7 +80,7 @@ body {
   color: #fff;
 }
 
-#contact {
+.contact-link {
   width: 100%;
 }
 
@@ -354,4 +354,95 @@ body {
 .orange_button:disabled {
   background: #f4f1f0;
   color: #5b5957;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+#form-list li {
+  margin: 5px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px #dbd8d7 solid;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.description_contact {
+  min-width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+textarea {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
+}
+
+.contact_icons {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+input[type="submit"] {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  padding: 12px;
+  border: none;
+}
+
+.separator {
+  margin: 0 auto;
+  width: 50%;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
 }
