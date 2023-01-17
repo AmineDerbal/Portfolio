@@ -355,3 +355,48 @@ body {
   background: #f4f1f0;
   color: #5b5957;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-list {
+  list-style: none;
+}
+#form-list li {
+  margin: 5px 0;
+}
+input {
+  width: 82%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  border-bottom: 1px #dbd8d7 solid;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.description_contact {
+  min-width: 327px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+textarea {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  background: #fbf8f7;
+}

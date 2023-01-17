@@ -280,14 +280,39 @@
     <section id="contact">
       <div class="description_contact">
         <p>
-          i'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+          i'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
         </p>
       </div>
-      <form action="https://formspree.io/f/xayznown" method="POST">
-        <input type="text" name="" id="" placeholder="Full name" required maxlength="30">
-        <input type="email" placeholder="Your email address" required>
-        <textarea name="" id="" cols="30" rows="10">Enter text here</textarea>
-        <input type="submit" class="orange_button" value="Get in touch">
+      <form
+        id="contact-form"
+        action="https://formspree.io/f/xayznown"
+        method="POST"
+      >
+        <ul id="form-list">
+          <li>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Full name"
+              required
+              maxlength="30"
+            />
+          </li>
+
+          <li>
+            <input type="email" placeholder="Your email address" required />
+          </li>
+          <li>
+            <textarea name="" id="" cols="30" rows="10">
+Enter text here</textarea
+            >
+          </li>
+          <li>
+            <input type="submit" class="orange_button" value="Get in touch" />
+          </li>
+        </ul>
       </form>
     </section>
   </body>
