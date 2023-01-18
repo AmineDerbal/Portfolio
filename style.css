@@ -112,6 +112,7 @@ a {
   line-height: 44px;
   color: #091e42;
   text-align: center;
+  margin-top: 0;
 }
 
 .model_2-title h1 {
@@ -203,10 +204,10 @@ a {
 }
 
 .model_1-picture {
-  background-image: url("./images/Img_Placeholder_1.png");
+  /* background-image: url("./images/Img_Placeholder_1.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: center; */
   width: 100%;
   padding-top: 10%;
   height: 20rem;
@@ -506,7 +507,7 @@ input[type="submit"] {
   .model_1-description p {
     font-size: 20px;
     line-height: 28px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 0;
   }
 
@@ -521,6 +522,7 @@ input[type="submit"] {
     width: 70%;
     font-size: 40px;
     line-height: 52px;
+    text-align: start;
   }
 
   #owner_name p {
@@ -545,7 +547,8 @@ input[type="submit"] {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
+    padding-left: 2rem;
+    gap: 6rem;
     background-image: url("./images/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 50%;
@@ -594,6 +597,7 @@ input[type="submit"] {
   .model_2-title {
     display: flex;
     justify-content: center;
+    align-self: start;
   }
 
   .item-3 .model_2-title h1 {
@@ -603,14 +607,17 @@ input[type="submit"] {
   #introduction h1 {
     font-size: 72px;
     line-height: 82px;
+    margin-bottom: 1rem;
   }
 
   #Occupation {
     font-size: 32px;
     line-height: 44px;
+    margin-bottom: 1rem;
   }
 
   #qualification {
+    width: 70%;
     font-size: 20px;
     line-height: 32px;
   }
@@ -647,38 +654,43 @@ input[type="submit"] {
 
   #card_works {
     grid-template-columns: auto auto auto;
-    grid-column-gap: 5rem;
-    grid-row-gap: 10rem;
-    padding: 0;
-    width: 80%;
+    grid-column-gap: 3rem;
+    padding-top: 7rem;
+    width: 90%;
     margin: 0 auto;
-  }
-
-  #card_works > div {
-    height: 30rem;
   }
 
   .work_model_1 {
     grid-column: 1 / span 3;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10rem;
     width: 90%;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 auto;
   }
 
   .model_1-picture {
-    height: 80%;
+    padding-top: 0;
+    height: auto;
+    width: 50%;
+  }
+
+  .model_1-picture img {
+    width: 100%;
+    object-fit: contain;
   }
 
   .model_1-content {
+    margin-top: 0;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    align-items: flex-start;
   }
 
   .work_model_2 {
-    height: auto;
+    height: 40rem;
+    margin-top: 10rem;
   }
 
   .item-1 {
@@ -769,6 +781,7 @@ input[type="submit"] {
     width: 100%;
     grid-template-columns: 50% 50%;
     align-self: center;
+    align-items: start;
   }
 
   .description_contact {
