@@ -229,6 +229,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   background-image: url("./images/Img_Placeholder_2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,8 +245,15 @@ body {
   line-height: 40px;
   color: #fff;
 }
+.item-2-title {
+  display: none;
+}
 
-.model-2-description {
+.item-3-title {
+  display: none;
+}
+
+.model-2-description p {
   width: 295px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -567,10 +575,16 @@ input[type="submit"] {
 
   #card_works {
     grid-template-columns: auto auto auto;
-    grid-column-gap: 2rem;
+    grid-column-gap: 5rem;
     grid-row-gap: 10rem;
     padding: 0;
     margin-top: 0;
+    margin: 0 1rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #card_works > div {
+    height: 30rem;
   }
 
   .work_model_1 {
@@ -595,11 +609,100 @@ input[type="submit"] {
     font-size: 40px;
     line-height: 52px;
     text-align: left;
+    margin-bottom: 0;
   }
 
   .model_1-description p {
     font-size: 20px;
     line-height: 28px;
     width: 80%;
+    margin-bottom: 0;
+  }
+
+  .work_model_2 {
+    height: auto;
+  }
+
+  .item-1 {
+    background-image: url("./images/Img_Placeholder.png");
+  }
+
+  .work_model_2 .model_2-project {
+    display: none;
+  }
+
+  .item-1 .model_2-title,
+  .item-1 .model-2-description,
+  .item-1 .model_2-tech {
+    display: none;
+  }
+  .item-1 .model_2-project {
+    display: flex;
+  }
+
+  .item-2 {
+    background-image: url("./images/Img\ Placeholder\ \(1\).png");
+  }
+  .item-2 .model_2-title h1 {
+    display: none;
+  }
+  .item-2-title,
+  .model_2-title {
+    display: flex;
+    justify-content: center;
+  }
+  .model_2-title h1,
+  .item-2-title h1 {
+    width: 90%;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 0;
+  }
+
+  .model-2-description {
+    display: flex;
+    justify-content: center;
+  }
+  .model-2-description p {
+    width: 90%;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0;
+  }
+  .model_2-tech {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .model_2-tech ul {
+    width: 90%;
+  }
+
+  .item-3 {
+    background-image: url("./images/Img\ Placeholder\ \(2\).png");
+  }
+
+  .item-3 .model_2-title h1 {
+    display: none;
+  }
+
+  .item-3-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .item-3-title h1 {
+    width: 90%;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 0;
   }
 }
