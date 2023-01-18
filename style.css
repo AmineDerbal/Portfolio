@@ -64,7 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 10rem;
   padding-left: 1rem;
   background-image: url("./images/Illustration.png");
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ body {
 }
 
 #introduction {
-  width: 70%;
+  width: 80%;
 }
 #introduction h1 {
   font-family: "Crete Round", serif;
@@ -305,7 +305,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/illustration-about-me-mobile.png");
+  background-image: url("./images/Frame-mobile.png");
   background-repeat: no-repeat;
   background-position: top 305px right;
 }
@@ -321,7 +321,7 @@ body {
   margin-bottom: 0;
 }
 
-#about_me_derscription {
+#about_me_derscription p {
   width: 327px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -343,7 +343,7 @@ body {
   line-height: 24px;
   color: #fff;
   background: #ff6b00;
-  padding: 10px;
+  padding: 1rem;
   border: none;
 }
 
@@ -352,9 +352,6 @@ body {
   border-bottom: 1px solid #fff;
   padding-top: 200px;
   margin-bottom: 20px;
-  background-image: url("./images/Ellipse\ 16.png");
-  background-repeat: no-repeat;
-  background-position: bottom 27px right 87px;
 }
 
 #language,
@@ -704,5 +701,39 @@ input[type="submit"] {
     line-height: 44px;
     color: #fff;
     margin: 0;
+  }
+
+  #about_me {
+    background-image: url("./images/Frame.png");
+    background-position: top right;
+  }
+
+  #about_me-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #about_me-title h1 {
+    font-size: 72px;
+    line-height: 82px;
+    width: 50%;
+  }
+
+  #about_me_derscription p {
+    font-size: 20px;
+    line-height: 32px;
+    width: 40%;
+  }
+
+  #separator_vector {
+    width: 90%;
+  }
+
+  #competences {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    align-self: start;
   }
 }
