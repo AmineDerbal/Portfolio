@@ -19,6 +19,11 @@ body {
   transform: scale(1.2);
 }
 
+input:hover,
+textarea:hover {
+  transform: translate(2%);
+}
+
 .model_1-description p {
   font-family: "Inter", sans-serif;
   font-style: normal;
