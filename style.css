@@ -15,15 +15,6 @@ body {
   align-items: center;
 }
 
-.work_model_2:hover {
-  transform: scale(1.2);
-}
-
-input:hover,
-textarea:hover {
-  transform: translate(2%);
-}
-
 .model_1-description p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -67,6 +58,7 @@ textarea:hover {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(180deg);
   }
@@ -224,10 +216,6 @@ a {
 }
 
 .model_1-picture {
-  /* background-image: url("./images/Img_Placeholder_1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
   width: 100%;
   padding-top: 10%;
   height: 20rem;
@@ -287,6 +275,10 @@ a {
   background-image: url("./images/Img_Placeholder_2.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.work_model_2:hover {
+  transform: scale(1.2);
 }
 
 .item-2-title {
@@ -509,6 +501,11 @@ input[type="submit"] {
   background: #ff6b00;
   padding: 12px;
   border: none;
+}
+
+input:hover,
+textarea:hover {
+  transform: translate(2%);
 }
 
 .separator {
