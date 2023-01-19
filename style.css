@@ -15,6 +15,10 @@ body {
   align-items: center;
 }
 
+.work_model_2:hover {
+  transform: scale(1.2);
+}
+
 .model_1-description p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -52,14 +56,13 @@ body {
   color: #fff;
   animation: rotate-logo 5s 1;
   animation-direction: reverse;
-  
 }
 
-@keyframes rotate-logo{
-  from{
+@keyframes rotate-logo {
+  from {
     transform: rotate(0deg);
   }
-  to{
+  to {
     transform: rotate(180deg);
   }
 }
