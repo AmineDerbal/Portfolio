@@ -687,13 +687,10 @@ textarea:hover {
 
   .model_1-picture {
     padding-top: 0;
-    height: auto;
-    width: 50%;
-  }
-
-  .model_1-picture img {
-    width: 100%;
-    object-fit: contain;
+    height: 40rem;
+    background-image: url("./images/Img\ Placeholder_Project.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .model_1-content {
