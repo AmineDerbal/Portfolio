@@ -694,6 +694,7 @@ textarea:hover {
     background-image: url("./images/Img\ Placeholder_Project.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: top;
   }
 
   .model_1-content {
