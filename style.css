@@ -8,6 +8,7 @@ body {
 }
 
 #header {
+  padding: 0;
   display: flex;
   background-color: #3c3a39;
   width: 100%;
@@ -83,6 +84,7 @@ a {
   position: relative;
   display: inline-block;
   margin: 0 4rem;
+  color: #fff;
 }
 
 #myDropdown {
@@ -94,9 +96,9 @@ a {
 }
 
 #myDropdown a {
-  color: #fff;
   display: block;
   padding: 1rem 2rem;
+  color: #fff;
 }
 
 #headline {
@@ -116,7 +118,7 @@ a {
   width: 80%;
 }
 
-.model_1-title h1 {
+.model_1-title h2 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -126,7 +128,7 @@ a {
   margin-top: 0;
 }
 
-.model_2-title h1 {
+.model_2-title h2 {
   padding-top: 30px;
   width: 295px;
   font-family: "Crete Round", sans-serif;
@@ -181,6 +183,10 @@ a {
   padding-left: 0;
 }
 
+#contact_infos a {
+  color: #fff;
+}
+
 #works_section {
   padding-top: 40px;
   display: flex;
@@ -224,7 +230,7 @@ a {
   background-size: 100%;
 }
 
-#works_title h1 {
+#works_title h2 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -264,7 +270,7 @@ a {
   font-weight: 500;
   font-size: 17px;
   padding: 10px;
-  background: #ff6b00;
+  background: #5b2906;
   color: #fff;
   border: none;
 }
@@ -313,6 +319,7 @@ a {
   background: rgba(255, 255, 255, 0.24);
   border: none;
   padding: 10px;
+  background-color: #0d4168;
 }
 
 .model_2-project button {
@@ -322,7 +329,7 @@ a {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  background: #ff6b00;
+  background: #5b2906;
   color: #fff;
   border: none;
   padding: 10px;
@@ -340,7 +347,7 @@ a {
   background-position: top 305px right;
 }
 
-#about_me-title h1 {
+#about_me-title h2 {
   width: 327px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -372,7 +379,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #ff6b00;
+  background: #5b2906;
   padding: 1rem;
   border: none;
 }
@@ -390,6 +397,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 
 #language-title,
@@ -408,7 +416,6 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
 }
 
 #language_content ul,
@@ -536,6 +543,7 @@ textarea:hover {
     font-size: 17px;
     line-height: 24px;
     margin: 0;
+    background: #5a4949;
   }
 
   .description_contact p {
@@ -579,15 +587,15 @@ textarea:hover {
     width: 50%;
   }
 
-  .model_1-title h1 {
+  .model_1-title h2 {
     font-size: 40px;
     line-height: 52px;
     text-align: left;
     margin-bottom: 0;
   }
 
-  .model_2-title h1,
-  .item-2-title h1 {
+  .model_2-title h2,
+  .item-2-title h2 {
     width: 90%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
@@ -596,9 +604,10 @@ textarea:hover {
     line-height: 44px;
     color: #fff;
     margin: 0;
+    background: #5a4949;
   }
 
-  .item-3-title h1 {
+  .item-3-title h2 {
     width: 90%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
@@ -607,9 +616,10 @@ textarea:hover {
     line-height: 44px;
     color: #fff;
     margin: 0;
+    background: #5a4949;
   }
 
-  .item-2 .model_2-title h1 {
+  .item-2 .model_2-title h2 {
     display: none;
   }
 
@@ -620,7 +630,7 @@ textarea:hover {
     align-self: start;
   }
 
-  .item-3 .model_2-title h1 {
+  .item-3 .model_2-title h2 {
     display: none;
   }
 
@@ -662,7 +672,7 @@ textarea:hover {
     justify-content: center;
   }
 
-  #works_title h1 {
+  #works_title h2 {
     width: 75%;
     margin-right: 0;
   }
@@ -771,7 +781,7 @@ textarea:hover {
     justify-content: center;
   }
 
-  #about_me-title h1 {
+  #about_me-title h2 {
     font-size: 72px;
     line-height: 82px;
     width: 50%;
@@ -836,5 +846,11 @@ textarea:hover {
 
   #contact-link img {
     height: 2rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #about_me {
+    background-size: 30%;
   }
 }
