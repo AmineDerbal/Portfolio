@@ -8,6 +8,7 @@ body {
 }
 
 #header {
+  padding: 0;
   display: flex;
   background-color: #3c3a39;
   width: 100%;
@@ -83,6 +84,7 @@ a {
   position: relative;
   display: inline-block;
   margin: 0 4rem;
+  color: #fff;
 }
 
 #myDropdown {
@@ -94,9 +96,9 @@ a {
 }
 
 #myDropdown a {
-  color: #fff;
   display: block;
   padding: 1rem 2rem;
+  color: #fff;
 }
 
 #headline {
@@ -179,6 +181,9 @@ a {
   align-items: center;
   gap: 15px;
   padding-left: 0;
+}
+#contact_infos a {
+  color: #fff;
 }
 
 #works_section {
@@ -264,7 +269,7 @@ a {
   font-weight: 500;
   font-size: 17px;
   padding: 10px;
-  background: #ff6b00;
+  background: #5b2906;
   color: #fff;
   border: none;
 }
@@ -313,6 +318,7 @@ a {
   background: rgba(255, 255, 255, 0.24);
   border: none;
   padding: 10px;
+  background-color: #0d4168;
 }
 
 .model_2-project button {
@@ -322,7 +328,7 @@ a {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  background: #ff6b00;
+  background: #5b2906;
   color: #fff;
   border: none;
   padding: 10px;
@@ -372,7 +378,7 @@ a {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
-  background: #ff6b00;
+  background: #5b2906;
   padding: 1rem;
   border: none;
 }
@@ -390,6 +396,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
 
 #language-title,
@@ -408,7 +415,6 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
 }
 
 #language_content ul,
@@ -536,6 +542,7 @@ textarea:hover {
     font-size: 17px;
     line-height: 24px;
     margin: 0;
+    background: #5a4949;
   }
 
   .description_contact p {
@@ -596,6 +603,7 @@ textarea:hover {
     line-height: 44px;
     color: #fff;
     margin: 0;
+    background: #5a4949;
   }
 
   .item-3-title h2 {
@@ -607,6 +615,7 @@ textarea:hover {
     line-height: 44px;
     color: #fff;
     margin: 0;
+    background: #5a4949;
   }
 
   .item-2 .model_2-title h2 {
