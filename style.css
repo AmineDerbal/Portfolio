@@ -838,3 +838,9 @@ textarea:hover {
     height: 2rem;
   }
 }
+
+@media screen and (min-width: 1600px) {
+  #about_me {
+    background-size: 30%;
+  }
+}
