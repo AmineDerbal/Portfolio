@@ -116,7 +116,7 @@ a {
   width: 80%;
 }
 
-.model_1-title h1 {
+.model_1-title h2 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -126,7 +126,7 @@ a {
   margin-top: 0;
 }
 
-.model_2-title h1 {
+.model_2-title h2 {
   padding-top: 30px;
   width: 295px;
   font-family: "Crete Round", sans-serif;
@@ -224,7 +224,7 @@ a {
   background-size: 100%;
 }
 
-#works_title h1 {
+#works_title h2 {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -340,7 +340,7 @@ a {
   background-position: top 305px right;
 }
 
-#about_me-title h1 {
+#about_me-title h2 {
   width: 327px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -579,15 +579,15 @@ textarea:hover {
     width: 50%;
   }
 
-  .model_1-title h1 {
+  .model_1-title h2 {
     font-size: 40px;
     line-height: 52px;
     text-align: left;
     margin-bottom: 0;
   }
 
-  .model_2-title h1,
-  .item-2-title h1 {
+  .model_2-title h2,
+  .item-2-title h2 {
     width: 90%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
@@ -598,7 +598,7 @@ textarea:hover {
     margin: 0;
   }
 
-  .item-3-title h1 {
+  .item-3-title h2 {
     width: 90%;
     font-family: "Crete Round", sans-serif;
     font-style: normal;
@@ -609,7 +609,7 @@ textarea:hover {
     margin: 0;
   }
 
-  .item-2 .model_2-title h1 {
+  .item-2 .model_2-title h2 {
     display: none;
   }
 
@@ -620,7 +620,7 @@ textarea:hover {
     align-self: start;
   }
 
-  .item-3 .model_2-title h1 {
+  .item-3 .model_2-title h2 {
     display: none;
   }
 
@@ -662,7 +662,7 @@ textarea:hover {
     justify-content: center;
   }
 
-  #works_title h1 {
+  #works_title h2 {
     width: 75%;
     margin-right: 0;
   }
@@ -771,7 +771,7 @@ textarea:hover {
     justify-content: center;
   }
 
-  #about_me-title h1 {
+  #about_me-title h2 {
     font-size: 72px;
     line-height: 82px;
     width: 50%;
