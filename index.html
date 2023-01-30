@@ -20,14 +20,36 @@
           width="20px"
         />
         <div id="myDropdown">
-          <a href="">Portoflio</a>
-          <a href="">About</a>
-          <a href="">Contact</a>
+          <a href="#works_section">Portoflio</a>
+          <a href="#about_me">About</a>
+          <a href="#contact">Contact</a>
           <a href=""
             ><img src="./images/Icon - Mail.png" alt="email-link" width="15"
           /></a>
         </div>
       </nav>
+      <div id="mobile-menu-modal" class="toogleModalDisplay">
+        <div id="mobile-menu">
+          <div id="modal-close-icon">
+            <img
+              src="./images/modal-close-icon.png"
+              alt="close-mobile-menu"
+              width="20rem"
+            />
+          </div>
+          <ul>
+            <li>
+              <a class="mobile-menu-link" href="#works_section">Portoflio</a>
+            </li>
+            <div class="mobile-menu-separator"></div>
+            <li><a class="mobile-menu-link" href="#about_me">About</a></li>
+            <div class="mobile-menu-separator"></div>
+            <li><a class="mobile-menu-link" href="#contact">Contact</a></li>
+            <div class="mobile-menu-separator"></div>
+          </ul>
+        </div>
+        <div id="mobile-menu-bottom"></div>
+      </div>
     </header>
     <section id="headline">
       <div id="introduction">
@@ -42,7 +64,9 @@
           you need coded, don’t hestiate to contact me.
         </p>
       </div>
-
+      <div class="mobile-menu">
+        <nav></nav>
+      </div>
       <div class="contact-link">
         <ul id="contact_infos">
           <li>
@@ -405,5 +429,7 @@
       </div>
       <div class="separator"></div>
     </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>

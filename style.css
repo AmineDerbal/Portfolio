@@ -16,6 +16,105 @@ body {
   align-items: center;
 }
 
+#mobile-menu-modal {
+  position: fixed;
+  scroll-behavior: smooth;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #e5e5e5;
+}
+
+.toogleModalDisplay {
+  display: none;
+}
+
+#mobile-menu {
+  background-color: #3c3a39;
+  height: 90%;
+}
+
+.model_1-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.model_2-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  color: #fff5e1;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#myDropdown a {
+  display: block;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+#contact_infos a {
+  color: #fff;
+}
+
+#mobile-menu ul li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+#form-list li {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#mobile-menu ul li {
+  padding: 1.5rem 2rem;
+}
+
+#modal-close-icon {
+  padding: 2rem 0;
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+#mobile-menu-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #0d151e;
+  height: 0.1rem;
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.mobile-menu-separator {
+  width: 90%;
+  margin: 0 auto;
+  height: 0;
+  border-bottom: 1px solid;
+  background: #6f6c6b;
+}
+
 .model_1-description p {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -71,10 +170,6 @@ body {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
 #header_menu,
 #owner_name {
   padding: 0 1rem;
@@ -83,7 +178,6 @@ a {
 #header_menu {
   position: relative;
   display: inline-block;
-  margin: 0 4rem;
   color: #fff;
 }
 
@@ -93,12 +187,6 @@ a {
   background-color: #3c3a39;
   z-index: 1;
   display: none;
-}
-
-#myDropdown a {
-  display: block;
-  padding: 1rem 2rem;
-  color: #fff;
 }
 
 #headline {
@@ -183,10 +271,6 @@ a {
   padding-left: 0;
 }
 
-#contact_infos a {
-  color: #fff;
-}
-
 #works_section {
   padding-top: 40px;
   display: flex;
@@ -245,13 +329,6 @@ a {
   display: flex;
 }
 
-.model_1-tech ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
-  gap: 10px;
-}
-
 .model_1-tech button {
   padding: 10px;
   font-family: "Inter", sans-serif;
@@ -300,13 +377,6 @@ a {
 
 .model_2-tech {
   width: 295px;
-}
-
-.model_2-tech ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
-  gap: 10px;
 }
 
 .model_2-tech button {
@@ -460,13 +530,6 @@ form {
   width: 100%;
 }
 
-#form-list li {
-  margin: 1rem 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 input[type="text"],
 input[type="email"] {
   width: 100%;
@@ -529,6 +592,10 @@ textarea:hover {
 @media screen and (min-width: 768px) {
   #header {
     justify-content: space-around;
+  }
+
+  #mobile-menu-modal {
+    display: none;
   }
 
   .model_1-description p {

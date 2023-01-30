@@ -122,6 +122,10 @@ npx hint . "to check html errors" Refer to this [Documentation]("https://github.
 
 - GitHub: [github](https://github.com/alexiscyber14)
 
+👤 **Yosefgeda**
+
+- GitHub: [github](https://github.com/Yosefgeda)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
