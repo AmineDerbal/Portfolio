@@ -1,16 +1,16 @@
 const mobileMenu = document.querySelector('#mobile-menu-modal');
-const hamburgerButton = document.getElementById("hamburger-button");
+const hamburgerButton = document.getElementById('hamburger-button');
 const closeModal = document.querySelector('#modal-close-icon img');
-
-closeModal.addEventListener("click", toggleMobileMenu)
-
-hamburgerButton.addEventListener("click",toggleMobileMenu)
+const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
 
 function toggleMobileMenu() {
-    if(mobileMenu.style.display === 'none') {
-        mobileMenu.style.display = "block"
-    } else{
-        mobileMenu.style.display = "none"
-    }
+  mobileMenu.classList.toggle('toogleModalDisplay');
 }
 
+closeModal.addEventListener('click', toggleMobileMenu);
+
+hamburgerButton.addEventListener('click', toggleMobileMenu);
+
+mobileMenuLinks.forEach((menuLink) => {
+  menuLink.addEventListener('click', toggleMobileMenu);
+});

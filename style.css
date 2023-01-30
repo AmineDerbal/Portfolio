@@ -23,9 +23,11 @@ body {
   height: 100%;
   width: 100%;
   background: #e5e5e5;
-  display: none;
 }
 
+.toogleModalDisplay{
+  display :none
+}
 #mobile-menu {
   background-color: #3c3a39;
   height: 90%;
@@ -50,7 +52,7 @@ body {
 }
 
 #modal-close-icon {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   width: 80%;
   display: flex;
   flex-direction: row-reverse;
