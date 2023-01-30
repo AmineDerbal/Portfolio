@@ -18,6 +18,7 @@ body {
 
 #mobile-menu-modal {
   position: fixed;
+  scroll-behavior: smooth;
   z-index: 1;
   left: 0;
   top: 0;
@@ -91,7 +92,7 @@ a {
 
 #modal-close-icon {
   padding: 2rem 0;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -177,7 +178,6 @@ a {
 #header_menu {
   position: relative;
   display: inline-block;
-  margin: 0 4rem;
   color: #fff;
 }
 
