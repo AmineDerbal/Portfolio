@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 #mobile-menu-modal {
   position: fixed;
   z-index: 1;
@@ -25,21 +26,50 @@ body {
   background: #e5e5e5;
 }
 
-.toogleModalDisplay{
-  display :none
+.toogleModalDisplay {
+  display: none;
 }
+
 #mobile-menu {
   background-color: #3c3a39;
   height: 90%;
 }
+
+.model_1-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.model_2-tech ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  gap: 10px;
+}
+
 #mobile-menu ul {
   list-style: none;
   color: #fff5e1;
   padding-left: 0;
 }
 
-#mobile-menu ul li a {
+a {
   text-decoration: none;
+}
+
+#myDropdown a {
+  display: block;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+#contact_infos a {
+  color: #fff;
+}
+
+#mobile-menu ul li a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -47,6 +77,14 @@ body {
   line-height: 44px;
   color: #fff5e1;
 }
+
+#form-list li {
+  margin: 1rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 #mobile-menu ul li {
   padding: 1.5rem 2rem;
 }
@@ -70,7 +108,6 @@ body {
 
 .mobile-menu-separator {
   width: 90%;
-
   margin: 0 auto;
   height: 0;
   border-bottom: 1px solid;
@@ -132,10 +169,6 @@ body {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
 #header_menu,
 #owner_name {
   padding: 0 1rem;
@@ -154,12 +187,6 @@ a {
   background-color: #3c3a39;
   z-index: 1;
   display: none;
-}
-
-#myDropdown a {
-  display: block;
-  padding: 1rem 2rem;
-  color: #fff;
 }
 
 #headline {
@@ -244,10 +271,6 @@ a {
   padding-left: 0;
 }
 
-#contact_infos a {
-  color: #fff;
-}
-
 #works_section {
   padding-top: 40px;
   display: flex;
@@ -306,13 +329,6 @@ a {
   display: flex;
 }
 
-.model_1-tech ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
-  gap: 10px;
-}
-
 .model_1-tech button {
   padding: 10px;
   font-family: "Inter", sans-serif;
@@ -361,13 +377,6 @@ a {
 
 .model_2-tech {
   width: 295px;
-}
-
-.model_2-tech ul {
-  list-style: none;
-  display: flex;
-  padding-left: 0;
-  gap: 10px;
 }
 
 .model_2-tech button {
@@ -521,13 +530,6 @@ form {
   width: 100%;
 }
 
-#form-list li {
-  margin: 1rem 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 input[type="text"],
 input[type="email"] {
   width: 100%;
@@ -590,6 +592,10 @@ textarea:hover {
 @media screen and (min-width: 768px) {
   #header {
     justify-content: space-around;
+  }
+
+  #mobile-menu-modal {
+    display: none;
   }
 
   .model_1-description p {
