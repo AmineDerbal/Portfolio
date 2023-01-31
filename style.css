@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
   padding: 0;
@@ -71,7 +71,7 @@ a {
 }
 
 #mobile-menu ul li a {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -121,7 +121,7 @@ a {
 }
 
 .model_1-description p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -130,7 +130,7 @@ a {
 
 .model-2-description p {
   width: 295px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -139,7 +139,7 @@ a {
 
 .description_contact p {
   min-width: 327px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -149,7 +149,7 @@ a {
 }
 
 #owner_name p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -206,7 +206,7 @@ a {
   align-items: center;
   padding-bottom: 10rem;
   padding-left: 1rem;
-  background-image: url("./images/Illustration.png");
+  background-image: url('./images/Illustration.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -216,7 +216,7 @@ a {
 }
 
 .model_1-title h2 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -228,7 +228,7 @@ a {
 .model_2-title h2 {
   padding-top: 30px;
   width: 295px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 32px;
@@ -237,7 +237,7 @@ a {
 }
 
 #introduction h1 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -248,7 +248,7 @@ a {
 }
 
 #Occupation {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -258,7 +258,7 @@ a {
 }
 
 #qualification {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -317,14 +317,14 @@ a {
   width: 100%;
   padding-top: 10%;
   height: 20rem;
-  background-image: url("./images/Img_Placeholder_1.png");
+  background-image: url('./images/Img_Placeholder_1.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 }
 
 #works_title h2 {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -340,7 +340,7 @@ a {
 
 .model_1-tech button {
   padding: 10px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
 }
@@ -351,7 +351,7 @@ a {
 }
 
 .model_1-project button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -367,7 +367,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  background-image: url("./images/Img_Placeholder_2.png");
+  background-image: url('./images/Img_Placeholder_2.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -389,7 +389,7 @@ a {
 }
 
 .model_2-tech button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -403,7 +403,7 @@ a {
 
 .model_2-project button {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -421,14 +421,14 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/Frame-mobile.png");
+  background-image: url('./images/Frame-mobile.png');
   background-repeat: no-repeat;
   background-position: top 305px right;
 }
 
 #about_me-title h2 {
   width: 327px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -439,7 +439,7 @@ a {
 
 #about_me_derscription p {
   width: 327px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -452,7 +452,7 @@ a {
 }
 
 #get_resume button {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -490,7 +490,7 @@ a {
 #language-title h3,
 #frameworks-title h3,
 #skills_title h3 {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -502,7 +502,7 @@ a {
 #skills_content ul {
   list-style: none;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-size: 22px;
   line-height: 43px;
@@ -539,10 +539,10 @@ form {
   width: 100%;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type='text'],
+input[type='email'] {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -554,7 +554,7 @@ input[type="email"] {
 }
 
 textarea {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -573,8 +573,8 @@ textarea {
   padding: 0;
 }
 
-input[type="submit"] {
-  font-family: "Inter", sans-serif;
+input[type='submit'] {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -596,6 +596,83 @@ textarea:hover {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+.popup-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hide-popup {
+  display: none;
+}
+.popup-container {
+  height: 95%;
+  width: 95%;
+  background-color: #fff;
+}
+.popup-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#popupTitle {
+  padding-left: 10%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 44px;
+  color: #172b4d;
+}
+#popup-close-icon {
+  padding-right: 3rem;
+}
+#popup-techs {
+  width: 80%;
+  margin: 0 auto;
+}
+#popup-picture {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#popup-description {
+  margin: 0 auto;
+  width: 80%;
+}
+#popup-description p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#popup-group-buttons {
+  width: 80%;
+  margin: 0 auto;
+}
+.popup-button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  border: none;
+  padding: 0.7rem;
+  margin-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -653,7 +730,7 @@ textarea:hover {
     align-items: center;
     padding-left: 2rem;
     gap: 6rem;
-    background-image: url("./images/Illustration-header.png");
+    background-image: url('./images/Illustration-header.png');
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center right;
@@ -673,7 +750,7 @@ textarea:hover {
   .model_2-title h2,
   .item-2-title h2 {
     width: 90%;
-    font-family: "Crete Round", sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
@@ -685,7 +762,7 @@ textarea:hover {
 
   .item-3-title h2 {
     width: 90%;
-    font-family: "Crete Round", sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 32px;
@@ -777,7 +854,7 @@ textarea:hover {
   .model_1-picture {
     padding-top: 0;
     height: 40rem;
-    background-image: url("./images/Img\ Placeholder_Project.png");
+    background-image: url('./images/Img\ Placeholder_Project.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -798,7 +875,7 @@ textarea:hover {
   }
 
   .item-1 {
-    background-image: url("./images/Img_Placeholder.png");
+    background-image: url('./images/Img_Placeholder.png');
   }
 
   .work_model_2 .model_2-project {
@@ -827,7 +904,7 @@ textarea:hover {
   }
 
   .item-2 {
-    background-image: url("./images/Img\ Placeholder\ \(1\).png");
+    background-image: url('./images/Img\ Placeholder\ \(1\).png');
   }
 
   .model_2-tech ul {
@@ -835,7 +912,7 @@ textarea:hover {
   }
 
   .item-3 {
-    background-image: url("./images/Img\ Placeholder\ \(2\).png");
+    background-image: url('./images/Img\ Placeholder\ \(2\).png');
   }
 
   .item-3-title {
@@ -845,7 +922,7 @@ textarea:hover {
   }
 
   #about_me {
-    background-image: url("./images/Frame.png");
+    background-image: url('./images/Frame.png');
     background-position: top right;
     background-size: 50%;
   }
@@ -922,6 +999,28 @@ textarea:hover {
 
   #contact-link img {
     height: 2rem;
+  }
+  #popup-content {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+  }
+  #popup-picture {
+    width: 50%;
+  }
+  #popup-picture img {
+    margin-left: 2rem;
+    content: url(./images/Snapshoot\ Portfolio-desktop.png);
+  }
+  #popup-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #popup-description p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
   }
 }
 
