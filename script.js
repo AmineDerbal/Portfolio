@@ -171,6 +171,11 @@ mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
 
+const closePopUpWindow = () => {
+  const popUp = document.querySelector('.popup-modal');
+  popUp.parentElement.removeChild(popUp);
+};
+
 const openPopupWindow = (button) => {
   let popUpData = '';
   if (button.parentElement.className === 'model_1-project') {
@@ -181,9 +186,13 @@ const openPopupWindow = (button) => {
   const popupModal = document.createElement('div');
   popupModal.className = 'popup-modal';
   document.body.appendChild(popupModal);
+  popupModal.addEventListener('click', closePopUpWindow);
   const popupContainer = document.createElement('div');
   popupContainer.className = 'popup-container';
   popupModal.appendChild(popupContainer);
+  popupContainer.addEventListener('click', (e) => {
+    e.stopPropagation();
+  });
   const popupTop = document.createElement('div');
   popupTop.className = 'popup-top';
   popupContainer.appendChild(popupTop);
@@ -198,6 +207,7 @@ const openPopupWindow = (button) => {
   closeIcon.src = './images/modal-close-icon.png';
   closeIcon.alt = 'close-mobile-menu';
   closeIcon.width = '20';
+  closeIcon.addEventListener('click', closePopUpWindow);
   popupCloseIcon.appendChild(closeIcon);
   const popupTechs = document.createElement('div');
   popupTechs.id = 'popup-techs';

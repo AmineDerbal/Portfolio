@@ -611,36 +611,47 @@ textarea:hover {
   align-items: center;
   justify-content: center;
 }
+
 .hide-popup {
   display: none;
 }
+
 .popup-container {
   height: 95%;
   width: 95%;
   background-color: #fff;
 }
+
 .popup-top {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 #popupTitle {
   padding-left: 10%;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 44px;
   color: #172b4d;
 }
+
 #popup-close-icon {
   padding-right: 3rem;
 }
+
+#popup-close-icon img {
+  cursor: pointer;
+}
+
 #popup-techs {
   width: 80%;
   margin: 0 auto;
 }
+
 #popup-picture {
   width: 80%;
   margin: 0 auto;
@@ -650,8 +661,9 @@ textarea:hover {
   margin: 0 auto;
   width: 80%;
 }
+
 #popup-description p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -662,8 +674,13 @@ textarea:hover {
   width: 80%;
   margin: 0 auto;
 }
+
+#popup-group-buttons span {
+  margin-left: 0.5rem;
+}
+
 .popup-button {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -1000,23 +1017,28 @@ textarea:hover {
   #contact-link img {
     height: 2rem;
   }
+
   #popup-content {
     display: flex;
     width: 90%;
     justify-content: center;
   }
+
   #popup-picture {
     width: 50%;
   }
+
   #popup-picture img {
     margin-left: 2rem;
     content: url(./images/Snapshoot\ Portfolio-desktop.png);
   }
+
   #popup-details {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   #popup-description p {
     font-weight: 300;
     font-size: 1.5rem;
