@@ -69,6 +69,7 @@ const addTechsList = (modelData) => {
   for (let i = 0; i < projectsData[modelData].techsList.length; i += 1) {
     const listElement = document.createElement('li');
     modelTechsList.appendChild(listElement);
+
     const listButton = document.createElement('button');
     listButton.textContent = projectsData[modelData].techsList[i];
     listElement.appendChild(listButton);
@@ -88,21 +89,26 @@ const createfirstCard = (card) => {
   const modelPicture = document.createElement('div');
   modelPicture.className = 'model_1-picture';
   card.appendChild(modelPicture);
+
   const modelContent = document.createElement('div');
   modelContent.className = 'model_1-content';
   card.appendChild(modelContent);
+
   const modelTitle = document.createElement('div');
   modelTitle.className = 'model_1-title';
   modelContent.appendChild(modelTitle);
   modelTitle.appendChild(addCardTitle(modelData));
+
   const modelDescription = document.createElement('div');
   modelDescription.className = 'model_1-description';
   modelContent.appendChild(modelDescription);
   modelDescription.appendChild(addCardDescription(modelData));
+
   const modelTechs = document.createElement('div');
   modelTechs.className = 'model_1-tech';
   modelContent.appendChild(modelTechs);
   modelTechs.appendChild(addTechsList(modelData));
+
   const modelProject = document.createElement('div');
   modelProject.className = 'model_1-project';
   modelContent.appendChild(modelProject);
@@ -117,6 +123,7 @@ const createSecondCard = (card) => {
   modelTitle.className = 'model_2-title';
   card.appendChild(modelTitle);
   modelTitle.appendChild(addCardTitle(modelData));
+
   if (card.classList.contains('item-2')) {
     const item2Data = 'item2';
     const item2Title = document.createElement('div');
@@ -124,6 +131,7 @@ const createSecondCard = (card) => {
     item2Title.appendChild(addCardTitle(item2Data));
     card.appendChild(item2Title);
   }
+
   if (card.classList.contains('item-3')) {
     const item3Data = 'item3';
     const item3Title = document.createElement('div');
@@ -131,14 +139,17 @@ const createSecondCard = (card) => {
     item3Title.appendChild(addCardTitle(item3Data));
     card.appendChild(item3Title);
   }
+
   const modelDescription = document.createElement('div');
   modelDescription.className = 'model-2-description';
   card.appendChild(modelDescription);
   modelDescription.appendChild(addCardDescription(modelData));
+
   const modelTechs = document.createElement('div');
   modelTechs.className = 'model_2-tech';
   card.appendChild(modelTechs);
   modelTechs.appendChild(addTechsList(modelData));
+
   const modelProject = document.createElement('div');
   modelProject.className = 'model_2-project';
   card.appendChild(modelProject);
@@ -196,47 +207,59 @@ const openPopupWindow = (button) => {
   const popupTop = document.createElement('div');
   popupTop.className = 'popup-top';
   popupContainer.appendChild(popupTop);
+
   const popupTitle = document.createElement('div');
   popupTitle.id = 'popupTitle';
   popupTop.appendChild(popupTitle);
   popupTitle.appendChild(addCardTitle(popUpData));
+
   const popupCloseIcon = document.createElement('div');
   popupCloseIcon.id = 'popup-close-icon';
   popupTop.appendChild(popupCloseIcon);
+
   const closeIcon = document.createElement('img');
   closeIcon.src = './images/modal-close-icon.png';
   closeIcon.alt = 'close-mobile-menu';
   closeIcon.width = '20';
   closeIcon.addEventListener('click', closePopUpWindow);
   popupCloseIcon.appendChild(closeIcon);
+
   const popupTechs = document.createElement('div');
   popupTechs.id = 'popup-techs';
   popupTechs.className = 'model_1-tech';
   popupContainer.appendChild(popupTechs);
   popupTechs.appendChild(addTechsList(popUpData));
+
   const popupContent = document.createElement('div');
   popupContent.id = 'popup-content';
   popupContainer.appendChild(popupContent);
+
   const popupPicture = document.createElement('div');
   popupPicture.id = 'popup-picture';
   popupContent.appendChild(popupPicture);
+
   const popupImage = document.createElement('img');
   popupPicture.appendChild(popupImage);
   popupImage.src = './images/Snapshoot Portfolio.png';
   popupImage.alt = 'snapshoot Portfolio';
+
   const popupDetails = document.createElement('div');
   popupDetails.id = 'popup-details';
   popupContent.appendChild(popupDetails);
+
   const popupDescription = document.createElement('div');
   popupDescription.id = 'popup-description';
   popupDetails.appendChild(popupDescription);
   popupDescription.appendChild(addCardDescription(popUpData));
+
   const popupGroupButtons = document.createElement('div');
   popupGroupButtons.id = 'popup-group-buttons';
   popupDetails.appendChild(popupGroupButtons);
+
   const liveButton = document.createElement('button');
   liveButton.className = 'orange_button popup-button';
   liveButton.textContent = 'See Live';
+
   const liveSpanButton = document.createElement('span');
   const liveIcon = document.createElement('img');
   liveIcon.src = './images/live-icon.png';
@@ -244,9 +267,11 @@ const openPopupWindow = (button) => {
   liveSpanButton.appendChild(liveIcon);
   liveButton.appendChild(liveSpanButton);
   popupGroupButtons.appendChild(liveButton);
+
   const gitButton = document.createElement('button');
   gitButton.className = 'orange_button popup-button';
   gitButton.textContent = 'See Source';
+
   const gitSpan = document.createElement('span');
   const gitIcon = document.createElement('img');
   gitIcon.src = './images/popup-github.png';
