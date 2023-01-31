@@ -161,6 +161,7 @@ const createWorkSection = () => {
     cardWorks.appendChild(createCardWorksElements(workModel));
   }
 };
+
 createWorkSection();
 closeModal.addEventListener('click', toggleMobileMenu);
 
@@ -168,4 +169,87 @@ hamburgerButton.addEventListener('click', toggleMobileMenu);
 
 mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
+});
+
+const openPopupWindow = (button) => {
+  let popUpData = '';
+  if (button.parentElement.className === 'model_1-project') {
+    popUpData = 'workModel1';
+  } else {
+    popUpData = 'workModel2';
+  }
+  const popupModal = document.createElement('div');
+  popupModal.className = 'popup-modal';
+  document.body.appendChild(popupModal);
+  const popupContainer = document.createElement('div');
+  popupContainer.className = 'popup-container';
+  popupModal.appendChild(popupContainer);
+  const popupTop = document.createElement('div');
+  popupTop.className = 'popup-top';
+  popupContainer.appendChild(popupTop);
+  const popupTitle = document.createElement('div');
+  popupTitle.id = 'popupTitle';
+  popupTop.appendChild(popupTitle);
+  popupTitle.appendChild(addCardTitle(popUpData));
+  const popupCloseIcon = document.createElement('div');
+  popupCloseIcon.id = 'popup-close-icon';
+  popupTop.appendChild(popupCloseIcon);
+  const closeIcon = document.createElement('img');
+  closeIcon.src = './images/modal-close-icon.png';
+  closeIcon.alt = 'close-mobile-menu';
+  closeIcon.width = '20';
+  popupCloseIcon.appendChild(closeIcon);
+  const popupTechs = document.createElement('div');
+  popupTechs.id = 'popup-techs';
+  popupTechs.className = 'model_1-tech';
+  popupContainer.appendChild(popupTechs);
+  popupTechs.appendChild(addTechsList(popUpData));
+  const popupContent = document.createElement('div');
+  popupContent.id = 'popup-content';
+  popupContainer.appendChild(popupContent);
+  const popupPicture = document.createElement('div');
+  popupPicture.id = 'popup-picture';
+  popupContent.appendChild(popupPicture);
+  const popupImage = document.createElement('img');
+  popupPicture.appendChild(popupImage);
+  popupImage.src = './images/Snapshoot Portfolio.png';
+  popupImage.alt = 'snapshoot Portfolio';
+  const popupDetails = document.createElement('div');
+  popupDetails.id = 'popup-details';
+  popupContent.appendChild(popupDetails);
+  const popupDescription = document.createElement('div');
+  popupDescription.id = 'popup-description';
+  popupDetails.appendChild(popupDescription);
+  popupDescription.appendChild(addCardDescription(popUpData));
+  const popupGroupButtons = document.createElement('div');
+  popupGroupButtons.id = 'popup-group-buttons';
+  popupDetails.appendChild(popupGroupButtons);
+  const liveButton = document.createElement('button');
+  liveButton.className = 'orange_button popup-button';
+  liveButton.textContent = 'See Live';
+  const liveSpanButton = document.createElement('span');
+  const liveIcon = document.createElement('img');
+  liveIcon.src = './images/live-icon.png';
+  liveIcon.alt = 'see live';
+  liveSpanButton.appendChild(liveIcon);
+  liveButton.appendChild(liveSpanButton);
+  popupGroupButtons.appendChild(liveButton);
+  const gitButton = document.createElement('button');
+  gitButton.className = 'orange_button popup-button';
+  gitButton.textContent = 'See Source';
+  const gitSpan = document.createElement('span');
+  const gitIcon = document.createElement('img');
+  gitIcon.src = './images/popup-github.png';
+  gitIcon.alt = 'github link';
+  gitSpan.appendChild(gitIcon);
+  gitButton.appendChild(gitSpan);
+  popupGroupButtons.appendChild(gitButton);
+};
+
+const popupButtons = document.querySelectorAll('#card_works .orange_button');
+
+popupButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    openPopupWindow(button);
+  });
 });
