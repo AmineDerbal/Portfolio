@@ -300,3 +300,9 @@ hamburgerButton.addEventListener('click', toggleMobileMenu);
 mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
+
+form.addEventListener('submit', (event) => {
+  if (!emailPattern.test(emailInput.value)) {
+    event.preventDefault();
+  }
+});
