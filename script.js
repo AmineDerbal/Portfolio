@@ -13,6 +13,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -22,6 +23,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -31,6 +33,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -40,6 +43,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -49,6 +53,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -58,6 +63,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
   {
     title: 'Profesional Art Printing Data',
@@ -67,6 +73,7 @@ const projectData = [
     button: 'See Project',
     image: './images/Snapshoot Portfolio-desktop.png',
     link: 'https://aminederbal.github.io/Portfolio/',
+    github: 'https://github.com/AmineDerbal/Portfolio',
   },
 ];
 
@@ -176,6 +183,9 @@ const openPopupWindow = (data) => {
   const liveButton = document.createElement('button');
   liveButton.className = 'orange_button popup-button';
   liveButton.textContent = 'See Live';
+  liveButton.addEventListener('click', () => {
+    window.open(data.link, '_blank');
+  });
 
   const liveSpanButton = document.createElement('span');
   const liveIcon = document.createElement('img');
@@ -188,6 +198,9 @@ const openPopupWindow = (data) => {
   const gitButton = document.createElement('button');
   gitButton.className = 'orange_button popup-button';
   gitButton.textContent = 'See Source';
+  gitButton.addEventListener('click', () => {
+    window.open(data.github, '_blank');
+  });
 
   const gitSpan = document.createElement('span');
   const gitIcon = document.createElement('img');
