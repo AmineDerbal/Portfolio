@@ -204,19 +204,17 @@
               name="name"
               id="name"
               placeholder="Full name"
-              required
               maxlength="30"
             />
+           
           </li>
-
           <li>
             <input
-              type="email"
+              type="text"
               id="email"
               name="email"
               placeholder="Your email address"
-              required
-            />
+            />       
           </li>
           <li>
             <textarea
@@ -226,11 +224,14 @@
               rows="10"
               placeholder="Enter text here"
               maxlength="500"
-              required
-            ></textarea>
+            ></textarea>       
           </li>
           <li id="submit-button-container">
             <input type="submit" class="orange_button" value="Get in touch" />
+            <span class="form-error form-error-text"></span>
+            <span class="name-error form-error-text"></span>
+            <span class="email-error form-error-text"></span>
+            <span class="message-error form-error-text"></span>
           </li>
         </ul>
       </form>
