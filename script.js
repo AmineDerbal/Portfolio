@@ -3,7 +3,9 @@ const hamburgerButton = document.getElementById('hamburger-button');
 const closeModal = document.querySelector('#modal-close-icon img');
 const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
 const cardWorks = document.getElementById('card_works');
-
+const form = document.getElementById('contact-form');
+const emailPattern = /^([a-z|\d])+@+([a-z]){2,}\.+([a-z)]{2,})/;
+const emailInput = document.getElementById('email');
 const projectData = [
   {
     title: 'Multi-Post Stories',
