@@ -182,12 +182,18 @@ mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
 
+const toggleOverflow = () => {
+  document.body.classList.toggle('toggle-overflow');
+};
+
 const closePopUpWindow = () => {
   const popUp = document.querySelector('.popup-modal');
   popUp.parentElement.removeChild(popUp);
+  toggleOverflow();
 };
 
 const openPopupWindow = (button) => {
+  toggleOverflow();
   let popUpData = '';
   if (button.parentElement.className === 'model_1-project') {
     popUpData = 'workModel1';
