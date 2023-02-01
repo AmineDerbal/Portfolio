@@ -83,6 +83,12 @@ a {
   color: #fff5e1;
 }
 
+form li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
 #form-list li {
   margin: 1rem 0;
   width: 100%;
@@ -574,21 +580,15 @@ textarea {
   background: #fbf8f7;
 }
 
-form li {
-  display: flex;
-  gap: 1.2rem;
-  align-items: center;
-}
-
-#submit-button-container{
+#submit-button-container {
   display: flex;
   flex-direction: column;
-  
 }
 
 .form-error-text {
   color: red;
-  font-style: 'inter',sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 1.3em;
   line-height: 24px;
@@ -1030,7 +1030,6 @@ textarea:hover {
     justify-content: start;
   }
 
- 
   #contact-link {
     margin-top: 10rem;
     grid-column: 1 / 3;
