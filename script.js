@@ -6,7 +6,12 @@ const cardWorks = document.getElementById('card_works');
 const form = document.getElementById('contact-form');
 const emailPattern = /^([a-z|\d])+@+([a-z]){2,}\.+([a-z)]{2,})/;
 const emailInput = document.getElementById('email');
+const nameInput = document.querySelector('#name');
+const messageInput = document.querySelector('#message');
 const emailErrorMessage = document.querySelector('.email-error');
+const formErrorMessage = document.querySelector('.form-error');
+const nameErrorMessage = document.querySelector('.name-error');
+const messageErrorMessage = document.querySelector('.message-error');
 
 const projectData = [
   {
@@ -303,13 +308,37 @@ mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
 form.addEventListener('submit', (event) => {
-  if (!emailPattern.test(emailInput.value)) {
-    event.preventDefault();
-    emailErrorMessage.textContent = 'The form was not sent, the email input should be in lower cases!';
-  } else {
-    if (emailErrorMessage.textContent !== '') {
-      emailErrorMessage.textContent = '';
-    }
+  event.preventDefault();
+  if (nameInput.value !== '' && messageInput.value !== '' && emailPattern.test(emailInput.value)) {
     form.submit();
+    formErrorMessage.textContent = '';
+    emailErrorMessage.style.display = 'none';
+    nameErrorMessage.style.display = 'none';
+    messageErrorMessage.style.display = 'none';
+  } else {
+    formErrorMessage.textContent = 'the form was not sent';
+
+    if (!emailPattern.test(emailInput.value)) {
+      emailErrorMessage.textContent = 'the email input should follow this format : xyz@exe.com';
+      emailErrorMessage.style.display = 'block';
+    } else {
+      emailErrorMessage.textContent = '';
+      emailErrorMessage.style.display = 'none';
+    }
+    if (nameInput.value === '') {
+      nameErrorMessage.textContent = 'the name input is empty';
+      nameErrorMessage.style.display = 'block';
+    } else {
+      nameErrorMessage.textContent = '';
+      nameErrorMessage.style.display = 'none';
+    }
+
+    if (messageInput.value === '') {
+      messageErrorMessage.textContent = 'the message input is empty';
+      messageErrorMessage.style.display = 'block';
+    } else {
+      messageErrorMessage.textContent = '';
+      messageErrorMessage.style.display = 'none';
+    }
   }
 });
