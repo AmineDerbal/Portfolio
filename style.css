@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 .toggle-overflow {
   overflow: hidden;
 }
@@ -511,6 +512,11 @@ a {
   line-height: 43px;
 }
 
+#popup-group-buttons button {
+  margin: 1rem 1rem;
+  font-size: 1rem;
+}
+
 .orange_button:hover,
 #get_resume button:hover {
   color: #f55800;
@@ -629,7 +635,6 @@ textarea:hover {
 .popup-top {
   width: 100%;
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -680,10 +685,6 @@ textarea:hover {
 #popup-group-buttons {
   width: 80%;
   margin: 0 auto;
-}
-#popup-group-buttons button {
-  margin: 1rem 1rem;
-  font-size: 1rem;
 }
 
 #popup-group-buttons span {
@@ -908,12 +909,6 @@ textarea:hover {
     width: 100%;
   }
 
-  /*.item-1 .model_2-title,
-  .item-1 .model-2-description,
-  .item-1 .model_2-tech {
-    display: none;
-  }*/
-
   .item-1 .model_2-project {
     display: flex;
   }
@@ -1019,17 +1014,21 @@ textarea:hover {
   #popup-top {
     justify-content: start;
   }
+
   #popupTitle {
     padding-left: 1rem;
   }
+
   #popup-picture {
     width: 80%;
     margin-left: 1rem;
   }
+
   #popup-techs {
     width: 100%;
     padding-left: 1rem;
   }
+
   #popup-picture img {
     width: 100%;
     height: 100%;
