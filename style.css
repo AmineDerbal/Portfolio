@@ -347,7 +347,7 @@ a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .model_1-project,
@@ -514,8 +514,9 @@ a {
 }
 
 #popup-group-buttons button {
-  margin: 1rem 1rem;
-  font-size: 1rem;
+  margin: 0.5rem 0.5rem;
+  font-size: 0.7rem;
+  padding: 0.2rem;
 }
 
 .orange_button:hover,
@@ -629,8 +630,8 @@ textarea:hover {
 .popup-container {
   max-height: 95%;
   max-width: 95%;
-  padding-bottom: 2rem;
   background-color: #fff;
+  padding: 1rem;
 }
 
 .popup-top {
@@ -645,9 +646,13 @@ textarea:hover {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3rem;
-  line-height: 44px;
   color: #172b4d;
+}
+
+#popupTitle h2 {
+  margin-bottom: 0.1rem;
+  font-size: 1.3rem;
+  line-height: 0.9rem;
 }
 
 #popup-close-icon {
@@ -673,7 +678,7 @@ textarea:hover {
 #popup-picture img {
   content: url('./images/Snapshoot\ Portfolio.png');
   object-fit: fill;
-  width: 100%;
+  width: 80%;
   height: 100%;
 }
 
@@ -686,8 +691,9 @@ textarea:hover {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.9rem;
   line-height: 24px;
+  margin-bottom: 0;
 }
 
 #popup-group-buttons {
@@ -1017,10 +1023,20 @@ textarea:hover {
     height: 2rem;
   }
 
+  .popup-container {
+    max-height: 95%;
+    max-width: 95%;
+    width: auto;
+    height: auto;
+    padding: 0 0.7rem;
+    padding-bottom: 5rem;
+  }
+
   #popup-content {
     display: flex;
     width: 90%;
     justify-content: center;
+    padding-bottom: 0%;
   }
 
   #popup-top {
@@ -1031,8 +1047,14 @@ textarea:hover {
     padding-left: 1rem;
   }
 
+  #popupTitle h2 {
+    font-size: 2rem;
+    line-height: 1rem;
+    margin-bottom: 0.2rem;
+  }
+
   #popup-picture {
-    width: 80%;
+    width: 90%;
     margin-left: 1rem;
   }
 
@@ -1059,6 +1081,11 @@ textarea:hover {
     font-weight: 300;
     font-size: 1.5rem;
     line-height: 1.5rem;
+  }
+
+  #popup-group-buttons button {
+    padding: 1rem;
+    font-size: 1rem;
   }
 }
 
