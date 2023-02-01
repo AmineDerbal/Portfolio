@@ -670,6 +670,7 @@ textarea:hover {
 }
 
 #popup-picture img {
+  content: url('./images/Snapshoot\ Portfolio.png');
   object-fit: fill;
   width: 100%;
   height: 100%;
@@ -1038,7 +1039,7 @@ textarea:hover {
   #popup-picture img {
     width: 100%;
     height: 100%;
-    content: url(./images/Snapshoot\ Portfolio-desktop.png);
+    content: url('./images/Snapshoot\ Portfolio-desktop.png');
     object-fit: fill;
   }
 
