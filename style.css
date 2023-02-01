@@ -668,6 +668,7 @@ textarea:hover {
   width: 80%;
   margin: 0 auto;
 }
+
 #popup-picture img {
   object-fit: fill;
   width: 100%;
