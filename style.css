@@ -347,6 +347,7 @@ a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
+  font-size: 0.7rem;
 }
 
 .model_1-project,
@@ -781,6 +782,10 @@ textarea:hover {
     line-height: 52px;
     text-align: left;
     margin-bottom: 0;
+  }
+
+  .model_1-tech button {
+    font-size: 1rem;
   }
 
   .model_2-title h2,
