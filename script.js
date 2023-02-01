@@ -301,6 +301,8 @@ mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
 
+emailInput.addEventListener('input', (event) => {});
+
 form.addEventListener('submit', (event) => {
   if (!emailPattern.test(emailInput.value)) {
     event.preventDefault();
