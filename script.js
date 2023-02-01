@@ -6,6 +6,8 @@ const cardWorks = document.getElementById('card_works');
 const form = document.getElementById('contact-form');
 const emailPattern = /^([a-z|\d])+@+([a-z]){2,}\.+([a-z)]{2,})/;
 const emailInput = document.getElementById('email');
+const emailErrorMessage = document.querySelector('.email-error');
+
 const projectData = [
   {
     title: 'Multi-Post Stories',
@@ -300,11 +302,14 @@ hamburgerButton.addEventListener('click', toggleMobileMenu);
 mobileMenuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', toggleMobileMenu);
 });
-
-emailInput.addEventListener('input', (event) => {});
-
 form.addEventListener('submit', (event) => {
   if (!emailPattern.test(emailInput.value)) {
     event.preventDefault();
+    emailErrorMessage.textContent = 'The form was not sent, the email input should be in lower cases!';
+  } else {
+    if (emailErrorMessage.textContent !== '') {
+      emailErrorMessage.textContent = '';
+    }
+    form.submit();
   }
 });

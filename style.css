@@ -564,23 +564,6 @@ input[type='email'] {
   margin-bottom: 10px;
 }
 
-input[type='text']:invalid,
-input[type='email']:invalid,
-textarea:invalid {
-  border: 1px solid red;
-}
-input:invalid + span::before,
-textarea:invalid + span::before {
-  content: '✖';
-  color: red;
-}
-
-input:valid + span::before,
-textarea:valid + span::before {
-  content: '✓';
-  color: green;
-}
-
 textarea {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -595,6 +578,20 @@ form li {
   display: flex;
   gap: 1.2rem;
   align-items: center;
+}
+
+#submit-button-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.email-error {
+  color: red;
+  font-style: 'inter',sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 24px;
 }
 
 .contact_icons {
@@ -1031,6 +1028,10 @@ textarea:hover {
 
   #form-list li {
     justify-content: start;
+  }
+
+  #submit-button-container{
+    flex-direction: row;
   }
 
   #contact-link {
