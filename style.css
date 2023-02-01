@@ -586,11 +586,11 @@ form li {
   
 }
 
-.email-error {
+.form-error-text {
   color: red;
   font-style: 'inter',sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 24px;
 }
 
@@ -1030,10 +1030,7 @@ textarea:hover {
     justify-content: start;
   }
 
-  #submit-button-container{
-    flex-direction: row;
-  }
-
+ 
   #contact-link {
     margin-top: 10rem;
     grid-column: 1 / 3;
