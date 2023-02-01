@@ -800,19 +800,10 @@ textarea:hover {
     background: #5a4949;
   }
 
-  .item-2 .model_2-title h2 {
-    display: none;
-  }
-
-  .item-2-title,
   .model_2-title {
     display: flex;
     justify-content: center;
     align-self: start;
-  }
-
-  .item-3 .model_2-title h2 {
-    display: none;
   }
 
   #introduction h1 {
@@ -906,10 +897,6 @@ textarea:hover {
     background-image: url('./images/Img_Placeholder.png');
   }
 
-  .work_model_2 .model_2-project {
-    display: none;
-  }
-
   .model-2-description {
     display: flex;
     justify-content: center;
@@ -921,11 +908,11 @@ textarea:hover {
     width: 100%;
   }
 
-  .item-1 .model_2-title,
+  /*.item-1 .model_2-title,
   .item-1 .model-2-description,
   .item-1 .model_2-tech {
     display: none;
-  }
+  }*/
 
   .item-1 .model_2-project {
     display: flex;
@@ -941,12 +928,6 @@ textarea:hover {
 
   .item-3 {
     background-image: url('./images/Img\ Placeholder\ \(2\).png');
-  }
-
-  .item-3-title {
-    display: flex;
-    justify-content: center;
-    width: 100%;
   }
 
   #about_me {
