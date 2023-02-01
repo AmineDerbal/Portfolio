@@ -564,6 +564,23 @@ input[type='email'] {
   margin-bottom: 10px;
 }
 
+input[type='text']:invalid,
+input[type='email']:invalid,
+textarea:invalid {
+  border: 1px solid red;
+}
+input:invalid + span::before,
+textarea:invalid + span::before {
+  content: '✖';
+  color: red;
+}
+
+input:valid + span::before,
+textarea:valid + span::before {
+  content: '✓';
+  color: green;
+}
+
 textarea {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -572,6 +589,12 @@ textarea {
   line-height: 24px;
   color: #3c3a39;
   background: #fbf8f7;
+}
+
+form li {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
 }
 
 .contact_icons {
