@@ -631,7 +631,7 @@ textarea:hover {
   max-height: 95%;
   max-width: 95%;
   background-color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .popup-top {
@@ -716,6 +716,7 @@ textarea:hover {
   border: none;
   padding: 0.7rem;
   margin-right: 2rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
