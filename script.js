@@ -13,6 +13,23 @@ const formErrorMessage = document.querySelector('.form-error');
 const nameErrorMessage = document.querySelector('.name-error');
 const messageErrorMessage = document.querySelector('.message-error');
 
+let formData = {
+  nameField: '',
+  emailField: '',
+  messageField: '',
+};
+
+const fillFormInputs = (data) => {
+  nameInput.value = data.nameField;
+  emailInput.value = data.emailField;
+  messageInput.value = data.messageField;
+};
+
+if (localStorage.getItem('formData')) {
+  formData = JSON.parse(localStorage.getItem('formData'));
+  fillFormInputs(formData);
+}
+
 const projectData = [
   {
     title: 'Multi-Post Stories',
@@ -341,4 +358,19 @@ form.addEventListener('submit', (event) => {
       messageErrorMessage.style.display = 'none';
     }
   }
+});
+
+nameInput.addEventListener('input', () => {
+  formData.nameField = nameInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+emailInput.addEventListener('input', () => {
+  formData.emailField = emailInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+messageInput.addEventListener('input', () => {
+  formData.messageField = messageInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
 });
