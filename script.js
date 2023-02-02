@@ -364,3 +364,13 @@ nameInput.addEventListener('input', () => {
   formData.nameField = nameInput.value;
   localStorage.setItem('formData', JSON.stringify(formData));
 });
+
+emailInput.addEventListener('input', () => {
+  formData.emailField = emailInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
+
+messageInput.addEventListener('input', () => {
+  formData.messageField = messageInput.value;
+  localStorage.setItem('formData', JSON.stringify(formData));
+});
