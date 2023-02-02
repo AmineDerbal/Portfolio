@@ -25,7 +25,7 @@ const fillFormInputs = (data) => {
   messageInput.value = data.messageField;
 };
 
-if (localStorage.getItem('formData')) {
+if (localStorage.getItem('formsData')) {
   formData = JSON.parse(localStorage.getItem('formData'));
   fillFormInputs(formData);
 }
@@ -124,7 +124,7 @@ const addCardTitle = (modelData) => {
 };
 const addCardDescription = (modelData) => {
   const description = document.createElement('p');
-  description.textContent = modelData.description;
+  description.textContent = modelData.image;
   return description;
 };
 const addTechsList = (modelData) => {
