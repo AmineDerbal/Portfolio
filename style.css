@@ -327,7 +327,7 @@ form li {
   width: 100%;
   padding-top: 10%;
   height: 20rem;
-  background-image: url('./images/Img_Placeholder_1.png');
+  background-image: url('./images/weather.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -696,7 +696,6 @@ textarea:hover {
 }
 
 #popup-picture img {
-  content: url('./images/Snapshoot\ Portfolio.png');
   object-fit: fill;
   width: 80%;
   height: 100%;
@@ -913,7 +912,7 @@ textarea:hover {
   .model_1-picture {
     padding-top: 0;
     height: 40rem;
-    background-image: url('./images/Img\ Placeholder_Project.png');
+    background-image: url('./images/weather.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -1087,7 +1086,6 @@ textarea:hover {
   #popup-picture img {
     width: 100%;
     height: 100%;
-    content: url('./images/Snapshoot\ Portfolio-desktop.png');
     object-fit: fill;
   }
 
