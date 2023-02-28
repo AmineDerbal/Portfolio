@@ -32,14 +32,14 @@ if (localStorage.getItem('formData')) {
 
 const projectData = [
   {
-    title: 'Multi-Post Stories',
+    title: 'Weather App',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    technologies: ['css', 'html', 'bootstrap', 'Ruby'],
+      'A website that use express NodeJS to fetch the current weather for the input city.',
+    technologies: ['CSS', 'HTML', 'Javascript', 'NodeJS'],
     button: 'See Project',
-    image: './images/Snapshoot Portfolio-desktop.png',
-    link: 'https://aminederbal.github.io/Portfolio/',
-    github: 'https://github.com/AmineDerbal/Portfolio',
+    image: './images/weather.png',
+    link: 'https://weather-app.cyberamined31.repl.co/',
+    github: 'https://github.com/AmineDerbal/Weather-App',
   },
   {
     title: 'Profesional Art Printing Data',
